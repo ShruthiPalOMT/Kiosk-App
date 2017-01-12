@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE06A0D11DF52639008CD22C /* HAL.js in Resources */ = {isa = PBXBuildFile; fileRef = BE06A0CF1DF52639008CD22C /* HAL.js */; };
+		BE06A0D21DF52639008CD22C /* scanButton.html in Resources */ = {isa = PBXBuildFile; fileRef = BE06A0D01DF52639008CD22C /* scanButton.html */; };
+		BE08683A1E078F7D00B85835 /* YHCountDownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0868391E078F7D00B85835 /* YHCountDownTimer.swift */; };
+		BE08683C1E078FDC00B85835 /* CGRect+center.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE08683B1E078FDC00B85835 /* CGRect+center.swift */; };
+		BE08683E1E079D6900B85835 /* ArgumentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE08683D1E079D6900B85835 /* ArgumentsTableViewCell.swift */; };
+		BE62D5651DF640A6000333F2 /* HALEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62D5641DF640A6000333F2 /* HALEngine.swift */; };
+		BE62D5671DF64AB8000333F2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62D5661DF64AB8000333F2 /* StartViewController.swift */; };
+		BEB4B3931DEFE6FA00D46F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB4B3921DEFE6FA00D46F36 /* AppDelegate.swift */; };
+		BEB4B3951DEFE6FA00D46F36 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB4B3941DEFE6FA00D46F36 /* WebViewController.swift */; };
+		BEB4B3981DEFE6FA00D46F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB4B3961DEFE6FA00D46F36 /* Main.storyboard */; };
+		BEB4B39A1DEFE6FA00D46F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB4B3991DEFE6FA00D46F36 /* Assets.xcassets */; };
+		BEB4B39D1DEFE6FA00D46F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB4B39B1DEFE6FA00D46F36 /* LaunchScreen.storyboard */; };
+		BED4D40A1DFFB800000C4FA3 /* UIApplicationSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D4091DFFB800000C4FA3 /* UIApplicationSwizzling.swift */; };
+		BED4D4371E00BE05000C4FA3 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D42E1E00BE05000C4FA3 /* AppConfiguration.swift */; };
+		BED4D4381E00BE05000C4FA3 /* QRCodeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D42F1E00BE05000C4FA3 /* QRCodeUtils.swift */; };
+		BED4D4391E00BE05000C4FA3 /* String.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D4301E00BE05000C4FA3 /* String.ext.swift */; };
+		BED4D43A1E00BE05000C4FA3 /* UIImage.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D4311E00BE05000C4FA3 /* UIImage.ext.swift */; };
+		BED4D43B1E00BE05000C4FA3 /* UIView+hideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D4321E00BE05000C4FA3 /* UIView+hideKeyboard.swift */; };
+		BED4D43C1E00BE05000C4FA3 /* UIViewController+AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D4331E00BE05000C4FA3 /* UIViewController+AlertController.swift */; };
+		BED4D43D1E00BE05000C4FA3 /* UIViewController+UIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D4341E00BE05000C4FA3 /* UIViewController+UIImagePickerController.swift */; };
+		BED4D43E1E00BE05000C4FA3 /* URLActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D4351E00BE05000C4FA3 /* URLActions.swift */; };
+		BED4D43F1E00BE05000C4FA3 /* YHKeyboardAvoidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4D4361E00BE05000C4FA3 /* YHKeyboardAvoidingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE06A0CF1DF52639008CD22C /* HAL.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = HAL.js; sourceTree = "<group>"; };
+		BE06A0D01DF52639008CD22C /* scanButton.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scanButton.html; sourceTree = "<group>"; };
+		BE0868391E078F7D00B85835 /* YHCountDownTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHCountDownTimer.swift; sourceTree = "<group>"; };
+		BE08683B1E078FDC00B85835 /* CGRect+center.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+center.swift"; sourceTree = "<group>"; };
+		BE08683D1E079D6900B85835 /* ArgumentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgumentsTableViewCell.swift; sourceTree = "<group>"; };
+		BE62D5641DF640A6000333F2 /* HALEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HALEngine.swift; sourceTree = "<group>"; };
+		BE62D5661DF64AB8000333F2 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		BEB4B38F1DEFE6FA00D46F36 /* WebAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB4B3921DEFE6FA00D46F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEB4B3941DEFE6FA00D46F36 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BEB4B3971DEFE6FA00D46F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEB4B3991DEFE6FA00D46F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEB4B39C1DEFE6FA00D46F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEB4B39E1DEFE6FA00D46F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED4D4091DFFB800000C4FA3 /* UIApplicationSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationSwizzling.swift; sourceTree = "<group>"; };
+		BED4D42E1E00BE05000C4FA3 /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		BED4D42F1E00BE05000C4FA3 /* QRCodeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeUtils.swift; sourceTree = "<group>"; };
+		BED4D4301E00BE05000C4FA3 /* String.ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.ext.swift; sourceTree = "<group>"; };
+		BED4D4311E00BE05000C4FA3 /* UIImage.ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.ext.swift; sourceTree = "<group>"; };
+		BED4D4321E00BE05000C4FA3 /* UIView+hideKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+hideKeyboard.swift"; sourceTree = "<group>"; };
+		BED4D4331E00BE05000C4FA3 /* UIViewController+AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertController.swift"; sourceTree = "<group>"; };
+		BED4D4341E00BE05000C4FA3 /* UIViewController+UIImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+UIImagePickerController.swift"; sourceTree = "<group>"; };
+		BED4D4351E00BE05000C4FA3 /* URLActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLActions.swift; sourceTree = "<group>"; };
+		BED4D4361E00BE05000C4FA3 /* YHKeyboardAvoidingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHKeyboardAvoidingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEB4B38C1DEFE6FA00D46F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEB4B3861DEFE6FA00D46F36 = {
+			isa = PBXGroup;
+			children = (
+				BEB4B3911DEFE6FA00D46F36 /* WebAppDemo */,
+				BEB4B3901DEFE6FA00D46F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB4B3901DEFE6FA00D46F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB4B38F1DEFE6FA00D46F36 /* WebAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEB4B3911DEFE6FA00D46F36 /* WebAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BEB4B3921DEFE6FA00D46F36 /* AppDelegate.swift */,
+				BED4D4091DFFB800000C4FA3 /* UIApplicationSwizzling.swift */,
+				BE62D5661DF64AB8000333F2 /* StartViewController.swift */,
+				BEB4B3941DEFE6FA00D46F36 /* WebViewController.swift */,
+				BE62D5641DF640A6000333F2 /* HALEngine.swift */,
+				BEB4B3961DEFE6FA00D46F36 /* Main.storyboard */,
+				BE08683D1E079D6900B85835 /* ArgumentsTableViewCell.swift */,
+				BEB4B3991DEFE6FA00D46F36 /* Assets.xcassets */,
+				BEB4B39B1DEFE6FA00D46F36 /* LaunchScreen.storyboard */,
+				BEB4B39E1DEFE6FA00D46F36 /* Info.plist */,
+				BED4D42D1E00BE05000C4FA3 /* Utils */,
+				BE06A0CF1DF52639008CD22C /* HAL.js */,
+				BE06A0D01DF52639008CD22C /* scanButton.html */,
+			);
+			path = WebAppDemo;
+			sourceTree = "<group>";
+		};
+		BED4D42D1E00BE05000C4FA3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BED4D42E1E00BE05000C4FA3 /* AppConfiguration.swift */,
+				BED4D42F1E00BE05000C4FA3 /* QRCodeUtils.swift */,
+				BED4D4301E00BE05000C4FA3 /* String.ext.swift */,
+				BED4D4311E00BE05000C4FA3 /* UIImage.ext.swift */,
+				BED4D4321E00BE05000C4FA3 /* UIView+hideKeyboard.swift */,
+				BED4D4331E00BE05000C4FA3 /* UIViewController+AlertController.swift */,
+				BED4D4341E00BE05000C4FA3 /* UIViewController+UIImagePickerController.swift */,
+				BE08683B1E078FDC00B85835 /* CGRect+center.swift */,
+				BE0868391E078F7D00B85835 /* YHCountDownTimer.swift */,
+				BED4D4351E00BE05000C4FA3 /* URLActions.swift */,
+				BED4D4361E00BE05000C4FA3 /* YHKeyboardAvoidingView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEB4B38E1DEFE6FA00D46F36 /* WebAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB4B3A11DEFE6FA00D46F36 /* Build configuration list for PBXNativeTarget "WebAppDemo" */;
+			buildPhases = (
+				BEB4B38B1DEFE6FA00D46F36 /* Sources */,
+				BEB4B38C1DEFE6FA00D46F36 /* Frameworks */,
+				BEB4B38D1DEFE6FA00D46F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebAppDemo;
+			productName = WebAppDemo;
+			productReference = BEB4B38F1DEFE6FA00D46F36 /* WebAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEB4B3871DEFE6FA00D46F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yilei He";
+				TargetAttributes = {
+					BEB4B38E1DEFE6FA00D46F36 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PFRP4P8E2S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BEB4B38A1DEFE6FA00D46F36 /* Build configuration list for PBXProject "webappdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEB4B3861DEFE6FA00D46F36;
+			productRefGroup = BEB4B3901DEFE6FA00D46F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB4B38E1DEFE6FA00D46F36 /* WebAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEB4B38D1DEFE6FA00D46F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE06A0D21DF52639008CD22C /* scanButton.html in Resources */,
+				BEB4B39D1DEFE6FA00D46F36 /* LaunchScreen.storyboard in Resources */,
+				BEB4B39A1DEFE6FA00D46F36 /* Assets.xcassets in Resources */,
+				BE06A0D11DF52639008CD22C /* HAL.js in Resources */,
+				BEB4B3981DEFE6FA00D46F36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEB4B38B1DEFE6FA00D46F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED4D43D1E00BE05000C4FA3 /* UIViewController+UIImagePickerController.swift in Sources */,
+				BED4D4371E00BE05000C4FA3 /* AppConfiguration.swift in Sources */,
+				BE08683E1E079D6900B85835 /* ArgumentsTableViewCell.swift in Sources */,
+				BE08683C1E078FDC00B85835 /* CGRect+center.swift in Sources */,
+				BED4D43C1E00BE05000C4FA3 /* UIViewController+AlertController.swift in Sources */,
+				BED4D43E1E00BE05000C4FA3 /* URLActions.swift in Sources */,
+				BED4D4391E00BE05000C4FA3 /* String.ext.swift in Sources */,
+				BED4D43F1E00BE05000C4FA3 /* YHKeyboardAvoidingView.swift in Sources */,
+				BED4D4381E00BE05000C4FA3 /* QRCodeUtils.swift in Sources */,
+				BE08683A1E078F7D00B85835 /* YHCountDownTimer.swift in Sources */,
+				BED4D43B1E00BE05000C4FA3 /* UIView+hideKeyboard.swift in Sources */,
+				BED4D43A1E00BE05000C4FA3 /* UIImage.ext.swift in Sources */,
+				BEB4B3951DEFE6FA00D46F36 /* WebViewController.swift in Sources */,
+				BE62D5671DF64AB8000333F2 /* StartViewController.swift in Sources */,
+				BE62D5651DF640A6000333F2 /* HALEngine.swift in Sources */,
+				BED4D40A1DFFB800000C4FA3 /* UIApplicationSwizzling.swift in Sources */,
+				BEB4B3931DEFE6FA00D46F36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEB4B3961DEFE6FA00D46F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB4B3971DEFE6FA00D46F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEB4B39B1DEFE6FA00D46F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB4B39C1DEFE6FA00D46F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEB4B39F1DEFE6FA00D46F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEB4B3A01DEFE6FA00D46F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEB4B3A21DEFE6FA00D46F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PFRP4P8E2S;
+				INFOPLIST_FILE = WebAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMT.WebAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BEB4B3A31DEFE6FA00D46F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PFRP4P8E2S;
+				INFOPLIST_FILE = WebAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMT.WebAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEB4B38A1DEFE6FA00D46F36 /* Build configuration list for PBXProject "webappdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB4B39F1DEFE6FA00D46F36 /* Debug */,
+				BEB4B3A01DEFE6FA00D46F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB4B3A11DEFE6FA00D46F36 /* Build configuration list for PBXNativeTarget "WebAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB4B3A21DEFE6FA00D46F36 /* Debug */,
+				BEB4B3A31DEFE6FA00D46F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEB4B3871DEFE6FA00D46F36 /* Project object */;
+}
